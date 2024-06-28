@@ -1,0 +1,7 @@
+version: "3.9"
+name: zipkin
+services:
+  zipkin:
+    image: openzipkin/zipkin:latest
+    ports:
+      - 9411:9411
